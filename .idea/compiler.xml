@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="Real_Time_News_Application.app" target="21" />
+      <module name="Real_Time_News_Application.main" target="21" />
+      <module name="Real_Time_News_Application.test" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
