@@ -17,7 +17,7 @@ interface NewsAPI {
         @Query("page")
         pageNumber: Int,
         @Query("apiKey")
-        apiKey:String="adbe53f9d9f64c35adfeb58580ae2b84",
+        apiKey:String="",
         @Query("pageSize")
         pageSize: Int=10
     ): Response<NewsResponse>
@@ -26,7 +26,7 @@ interface NewsAPI {
     @Headers("User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)")
     suspend fun getSearchNews(
         @Query("apiKey")
-        apiKey:String="adbe53f9d9f64c35adfeb58580ae2b84",
+        apiKey:String="",
         @Query("q")
         query: String=""
     ): Response<NewsResponse>
